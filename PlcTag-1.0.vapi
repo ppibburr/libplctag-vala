@@ -63,5 +63,8 @@ namespace Plc {
     public int write(int timeout=0);
     public int abort();
     public void destroy();
+    
+    //
+    public static string decode_error(int rc);
   }
 }
