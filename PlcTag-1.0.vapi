@@ -61,7 +61,7 @@ namespace Plc {
     //
     public int read(int timeout=0);
     public int write(int timeout=0);
-    public int plc_tag_abort();
+    public int abort();
     public void destroy();
   }
 }
